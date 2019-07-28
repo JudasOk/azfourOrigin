@@ -12,3 +12,5 @@ app.use('/api/000020', proxy({target: 'http://localhost:9020', changeOrigin: tru
 app.use('/api/000050', proxy({target: 'http://localhost:9050', changeOrigin: true, ignorePath:true, logLevel: 'debug'}));
 
 app.listen(8000);
+
+//second version
